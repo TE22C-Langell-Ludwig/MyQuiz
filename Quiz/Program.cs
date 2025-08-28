@@ -39,19 +39,19 @@ else{
 }
 
 Console.WriteLine($"Question 3: ");
-Console.WriteLine("What is the Swedish capital");
+Console.WriteLine("What is the Swedish national dish");
 string answer3 = Console.ReadLine(). ToLower();
 if (answer3 == "stockholm"){
-    Console.WriteLine("Nice thats correct");
+    Console.WriteLine("Nice thats wrong");
     points += 12;
     right++;
 }
 else{
-    Console.WriteLine("That was the wrong answere");
+    Console.WriteLine("That was the right answer");
 }
 
 Console.WriteLine($"Question 4: ");
-Console.WriteLine("What is Koharu's favourite food?");
+Console.WriteLine("What is jimmie åkersoons favourite food?");
 Console.WriteLine("Meatballs");
 Console.WriteLine("Liquorice");
 string answer4 = Console.ReadLine(). ToLower();
